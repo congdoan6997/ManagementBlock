@@ -15,6 +15,16 @@ namespace ManagementBlock.Data.Entities
         {
             Bills = new List<Bill>();
         }
+        public Product(string name,string description,string icon, string image, DateTime dateCreated, DateTime dateModified,Status status)
+        {
+            Name = Name;
+            Description = description;
+            Icon = icon;
+            Image = image;
+            DateCreated = dateCreated;
+            DateModified = dateCreated;
+            Status = status;
+        }
         [Required]
         [StringLength(255)]
         public string Name { get; set; }

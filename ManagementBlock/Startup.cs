@@ -1,4 +1,5 @@
-﻿using ManagementBlock.Data;
+﻿using AutoMapper;
+using ManagementBlock.Data;
 using ManagementBlock.Data.EF;
 using ManagementBlock.Data.Entities;
 using Microsoft.AspNetCore.Builder;
@@ -9,6 +10,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using IConfigurationProvider = AutoMapper.IConfigurationProvider;
 
 namespace ManagementBlock
 {
@@ -44,7 +46,10 @@ namespace ManagementBlock
             services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
             services.AddTransient<DbInit>();
 
-            
+            services.AddSingleton(Mapper.Configuration);
+            services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<IConfigurationProvider>(), sp.GetService));
+
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 

@@ -13,8 +13,8 @@ namespace ManagementBlock.Data.Entities
     public class AppUser : IdentityUser<Guid>, ISwitchable, IDateTracking
     {
         [StringLength(255)]
-        [Required]
-        public string Name { get; set; }
+        
+        public string FullName { get; set; }
         [StringLength(255)]
         public string Avatar { get; set; }
         [DefaultValue(0)]
