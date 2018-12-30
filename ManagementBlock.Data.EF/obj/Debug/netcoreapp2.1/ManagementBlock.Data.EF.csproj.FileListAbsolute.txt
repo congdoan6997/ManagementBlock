@@ -1,0 +1,16 @@
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Data.EF.deps.json
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Data.EF.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Data.EF.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Data.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Utilities.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Data.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Utilities.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.csprojAssemblyReference.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.csproj.CoreCompileInputs.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.AssemblyInfoInputs.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.AssemblyInfo.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.csproj.CopyComplete
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.pdb

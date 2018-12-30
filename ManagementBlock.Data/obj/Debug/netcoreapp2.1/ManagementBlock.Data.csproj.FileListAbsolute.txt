@@ -1,0 +1,9 @@
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\bin\Debug\netcoreapp2.1\ManagementBlock.Data.deps.json
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\bin\Debug\netcoreapp2.1\ManagementBlock.Data.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\bin\Debug\netcoreapp2.1\ManagementBlock.Data.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.csprojAssemblyReference.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.csproj.CoreCompileInputs.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.AssemblyInfoInputs.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.AssemblyInfo.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.pdb

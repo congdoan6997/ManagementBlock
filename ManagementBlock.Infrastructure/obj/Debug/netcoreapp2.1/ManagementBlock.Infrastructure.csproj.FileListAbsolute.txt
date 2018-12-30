@@ -1,0 +1,9 @@
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.deps.json
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\obj\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.csprojAssemblyReference.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\obj\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\obj\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.AssemblyInfoInputs.cache
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\obj\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.AssemblyInfo.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\obj\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Infrastructure\obj\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.pdb

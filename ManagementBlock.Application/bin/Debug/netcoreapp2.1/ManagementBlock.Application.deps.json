@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "ManagementBlock.Application/1.0.0": {
+        "dependencies": {
+          "ManagementBlock.Data": "1.0.0",
+          "ManagementBlock.Data.EF": "1.0.0",
+          "ManagementBlock.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "ManagementBlock.Application.dll": {}
+        }
+      },
+      "ManagementBlock.Data/1.0.0": {
+        "runtime": {
+          "ManagementBlock.Data.dll": {}
+        }
+      },
+      "ManagementBlock.Data.EF/1.0.0": {
+        "dependencies": {
+          "ManagementBlock.Data": "1.0.0",
+          "ManagementBlock.Infrastructure": "1.0.0",
+          "ManagementBlock.Utilities": "1.0.0"
+        },
+        "runtime": {
+          "ManagementBlock.Data.EF.dll": {}
+        }
+      },
+      "ManagementBlock.Infrastructure/1.0.0": {
+        "runtime": {
+          "ManagementBlock.Infrastructure.dll": {}
+        }
+      },
+      "ManagementBlock.Utilities/1.0.0": {
+        "runtime": {
+          "ManagementBlock.Utilities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ManagementBlock.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManagementBlock.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManagementBlock.Data.EF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManagementBlock.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ManagementBlock.Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
