@@ -7,3 +7,8 @@ D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.AssemblyInfo.cs
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.dll
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data\obj\Debug\netcoreapp2.1\ManagementBlock.Data.csproj.CopyComplete

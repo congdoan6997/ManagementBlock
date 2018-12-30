@@ -16,3 +16,5 @@ D:\Học Asp.net core\ManagementBlock\ManagementBlock.Application\obj\Debug\netc
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Application\obj\Debug\netcoreapp2.1\ManagementBlock.Application.csproj.CopyComplete
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Application\obj\Debug\netcoreapp2.1\ManagementBlock.Application.dll
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Application\obj\Debug\netcoreapp2.1\ManagementBlock.Application.pdb
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Application\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Application\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml

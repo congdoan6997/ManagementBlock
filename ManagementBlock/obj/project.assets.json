@@ -4634,6 +4634,9 @@
       "ManagementBlock.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "ManagementBlock.Infrastructure": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/ManagementBlock.Data.dll": {}
         },

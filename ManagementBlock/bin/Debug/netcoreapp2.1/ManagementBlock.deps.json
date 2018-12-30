@@ -533,6 +533,9 @@
         }
       },
       "ManagementBlock.Data/1.0.0": {
+        "dependencies": {
+          "ManagementBlock.Infrastructure": "1.0.0"
+        },
         "runtime": {
           "ManagementBlock.Data.dll": {}
         },
