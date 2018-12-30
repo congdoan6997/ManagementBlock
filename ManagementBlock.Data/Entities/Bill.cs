@@ -29,6 +29,6 @@ namespace ManagementBlock.Data.Entities
         [ForeignKey("ProductId")]
         public virtual Product Product { get; set; }
         [ForeignKey("UserId")]
-        public virtual ApplicationUser ApplicationUser { get; set; }
+        public virtual AppUser AppUser { get; set; }
     }
 }

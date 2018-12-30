@@ -4650,7 +4650,9 @@
         "dependencies": {
           "ManagementBlock.Data": "1.0.0",
           "ManagementBlock.Infrastructure": "1.0.0",
-          "ManagementBlock.Utilities": "1.0.0"
+          "ManagementBlock.Utilities": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "Microsoft.Extensions.Identity.Stores": "2.1.1"
         },
         "compile": {
           "bin/placeholder/ManagementBlock.Data.EF.dll": {}
