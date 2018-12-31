@@ -14,7 +14,7 @@ D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcorea
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.csproj.CopyComplete
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.dll
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\obj\Debug\netcoreapp2.1\ManagementBlock.Data.EF.pdb
-D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.dll
-D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\Microsoft.Extensions.Identity.Stores.xml
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.xml
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Data.EF.runtimeconfig.json
+D:\Học Asp.net core\ManagementBlock\ManagementBlock.Data.EF\bin\Debug\netcoreapp2.1\ManagementBlock.Data.EF.runtimeconfig.dev.json

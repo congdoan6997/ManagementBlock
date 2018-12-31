@@ -19,12 +19,22 @@ using ManagementBlock;
 #line default
 #line hidden
 #line 2 "D:\Học Asp.net core\ManagementBlock\ManagementBlock\Views\_ViewImports.cshtml"
+using ManagementBlock.Application.ViewModels;
+
+#line default
+#line hidden
+#line 3 "D:\Học Asp.net core\ManagementBlock\ManagementBlock\Views\_ViewImports.cshtml"
 using ManagementBlock.Models;
 
 #line default
 #line hidden
+#line 4 "D:\Học Asp.net core\ManagementBlock\ManagementBlock\Views\_ViewImports.cshtml"
+using ManagementBlock.Data.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b93df4061ff384cf01ca37cf92dff41c251f235f", @"/Views/Home/Contact.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f4924973192e400b14c2062b71967f2aa66334c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6c40c6aabde41ac4991bb49bcff83657416b8ad9", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Contact : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

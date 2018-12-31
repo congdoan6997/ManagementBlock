@@ -6,6 +6,7 @@ namespace ManagementBlock.Application.AutoMappers
     {
         public static MapperConfiguration RegisterMapper()
         {
+            
             return new MapperConfiguration(cfg =>
             {
                 cfg.AddProfile(new DomainToViewModelMappingProfile());

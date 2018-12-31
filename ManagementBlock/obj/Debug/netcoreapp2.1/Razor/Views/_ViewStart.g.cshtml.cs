@@ -19,12 +19,22 @@ using ManagementBlock;
 #line default
 #line hidden
 #line 2 "D:\Học Asp.net core\ManagementBlock\ManagementBlock\Views\_ViewImports.cshtml"
+using ManagementBlock.Application.ViewModels;
+
+#line default
+#line hidden
+#line 3 "D:\Học Asp.net core\ManagementBlock\ManagementBlock\Views\_ViewImports.cshtml"
 using ManagementBlock.Models;
 
 #line default
 #line hidden
+#line 4 "D:\Học Asp.net core\ManagementBlock\ManagementBlock\Views\_ViewImports.cshtml"
+using ManagementBlock.Data.Entities;
+
+#line default
+#line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7091c65830b0329e613be026ede8a57552863778", @"/Views/_ViewStart.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6f4924973192e400b14c2062b71967f2aa66334c", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6c40c6aabde41ac4991bb49bcff83657416b8ad9", @"/Views/_ViewImports.cshtml")]
     public class Views__ViewStart : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998

@@ -36,6 +36,7 @@ namespace ManagementBlock.Data.EF
                     Description = "Member"
                 });
             }
+            
             if (!_userManager.Users.Any())
             {
                 await _userManager.CreateAsync(new AppUser()
