@@ -14,7 +14,6 @@ D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Ma
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\ManagementBlock.TagHelpers.input.cache
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\ManagementBlock.TagHelpers.output.cache
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\ManagementBlock.RazorCoreGenerate.cache
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
@@ -43,10 +42,4 @@ D:\Học Asp.net core\ManagementBlock\ManagementBlock\bin\Debug\netcoreapp2.1\Ma
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\bin\Debug\netcoreapp2.1\ManagementBlock.Infrastructure.pdb
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\bin\Debug\netcoreapp2.1\ManagementBlock.Utilities.pdb
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
-D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Home\Index.g.cshtml.cs

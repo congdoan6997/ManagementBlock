@@ -53,31 +53,31 @@ namespace ManagementBlock.Data.EF.Migrations
             //        table.PrimaryKey("PK_AppUserClaims", x => x.Id);
             //    });
 
-            //migrationBuilder.CreateTable(
-            //    name: "AppUserLogins",
-            //    columns: table => new
-            //    {
-            //        LoginProvider = table.Column<string>(nullable: true),
-            //        ProviderKey = table.Column<string>(nullable: true),
-            //        ProviderDisplayName = table.Column<string>(nullable: true),
-            //        UserId = table.Column<Guid>(nullable: false)
-            //    },
-            //    constraints: table =>
-            //    {
-            //        table.PrimaryKey("PK_AppUserLogins", x => x.UserId);
-            //    });
+            migrationBuilder.CreateTable(
+                name: "AppUserLogins",
+                columns: table => new
+                {
+                    LoginProvider = table.Column<string>(nullable: true),
+                    ProviderKey = table.Column<string>(nullable: true),
+                    ProviderDisplayName = table.Column<string>(nullable: true),
+                    UserId = table.Column<Guid>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AppUserLogins", x => x.UserId);
+                });
 
-            //migrationBuilder.CreateTable(
-            //    name: "AppUserRoles",
-            //    columns: table => new
-            //    {
-            //        UserId = table.Column<Guid>(nullable: false),
-            //        RoleId = table.Column<Guid>(nullable: false)
-            //    },
-            //    constraints: table =>
-            //    {
-            //        table.PrimaryKey("PK_AppUserRoles", x => new { x.RoleId, x.UserId });
-            //    });
+            migrationBuilder.CreateTable(
+                name: "AppUserRoles",
+                columns: table => new
+                {
+                    UserId = table.Column<Guid>(nullable: false),
+                    RoleId = table.Column<Guid>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AppUserRoles", x => new { x.RoleId, x.UserId });
+                });
 
             migrationBuilder.CreateTable(
                 name: "AppUsers",

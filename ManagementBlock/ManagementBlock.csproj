@@ -20,8 +20,4 @@
     <ProjectReference Include="..\ManagementBlock.Utilities\ManagementBlock.Utilities.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Areas\Identity\Services\" />
-  </ItemGroup>
-
 </Project>
