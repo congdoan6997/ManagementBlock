@@ -43,3 +43,10 @@ D:\Học Asp.net core\ManagementBlock\ManagementBlock\bin\Debug\netcoreapp2.1\Ma
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\bin\Debug\netcoreapp2.1\ManagementBlock.Utilities.pdb
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Home\Index.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\Error.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_Layout.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_LoginPartial.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewImports.g.cshtml.cs
+D:\Học Asp.net core\ManagementBlock\ManagementBlock\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\_ViewStart.g.cshtml.cs
