@@ -1,8 +1,13 @@
 ﻿using AutoMapper;
 using ManagementBlock.Application.AutoMappers;
-using ManagementBlock.Data;
+using ManagementBlock.Application.Implementation;
+using ManagementBlock.Application.Interfaces;
 using ManagementBlock.Data.EF;
+using ManagementBlock.Data.EF.Repositories;
 using ManagementBlock.Data.Entities;
+using ManagementBlock.Data.IRepositories;
+using ManagementBlock.Helpers;
+using ManagementBlock.Infrastructure.Interfaces;
 using ManagementBlock.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -13,8 +18,10 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Logging;
+using Newtonsoft.Json.Serialization;
 using System;
-using IConfigurationProvider = AutoMapper.IConfigurationProvider;
+
 
 namespace ManagementBlock
 {
@@ -63,34 +70,46 @@ namespace ManagementBlock
                 // User settings
                 options.User.RequireUniqueEmail = true;
             });
-            //services.AddAutoMapper();
+        
 
             services.AddTransient<DbInit>();
             services.AddScoped<UserManager<AppUser>, UserManager<AppUser>>();
             services.AddScoped<RoleManager<AppRole>, RoleManager<AppRole>>();
-            services.AddTransient<IEmailSender, EmailSender>();
 
-            var config = new AutoMapper.MapperConfiguration(cfg =>
+           
+            services.AddTransient<IEmailSender, EmailSender>();
+            services.AddScoped<IUserClaimsPrincipalFactory<AppUser>, CustomClaimsPrincipalFactory>();
+
+            //add automapper
+            Mapper.Initialize(cfg =>
             {
                 cfg.AddProfile(new DomainToViewModelMappingProfile());
                 cfg.AddProfile(new ViewModelToDomainMappingProfile());
             });
+            services.AddAutoMapper();
 
-            IMapper mapper = config.CreateMapper();
-
-            services.AddSingleton(mapper);
-
-
+            //repositories
+            services.AddTransient<IMenuRepository, MenuRepository>();
+            services.AddTransient<IProductRepository, ProductRepository>();
+            //servicies
+            services.AddTransient<IMenuService, MenuService>();
+            services.AddTransient<IProductService, ProductSevice>();
+            services.AddTransient<IUnitOfWork, EFUnitOfWork>();
+            //Mapper.AssertConfigurationIsValid();
             //services.AddSingleton(Mapper.Configuration);
-            //services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<IConfigurationProvider>(), sp.GetService));
+            //services.AddScoped<IMapper>(sp => new Mapper(sp.GetRequiredService<AutoMapper.IConfigurationProvider>(), sp.GetService));
 
+            //default field Class
+            //services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                .AddJsonOptions(options => options.SerializerSettings.ContractResolver = new DefaultContractResolver());
 
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env,DbInit dbInit)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env,ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddFile("Logs/congdoan-{Date}.txt");
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -113,9 +132,9 @@ namespace ManagementBlock
                 routes.MapRoute(
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
-                routes.MapRoute(name: "admin", template: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+                routes.MapRoute(name: "admin", template: "{area:exists}/{controller=Login}/{action=Index}/{id?}");
             });
- 
+
         }
     }
 }

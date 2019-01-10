@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ManagementBlock.Data.EF.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20181231105224_Init")]
+    [Migration("20190109200955_Init")]
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -154,18 +154,17 @@ namespace ManagementBlock.Data.EF.Migrations
 
             modelBuilder.Entity("ManagementBlock.Data.Entities.Menu", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Css")
+                    b.Property<string>("IconCss")
                         .HasColumnType("varchar(255)")
                         .HasMaxLength(255);
 
-                    b.Property<string>("Image")
+                    b.Property<string>("Name")
                         .HasMaxLength(255);
 
-                    b.Property<string>("Name")
+                    b.Property<string>("ParentId")
                         .HasMaxLength(255);
 
                     b.Property<int>("SortNumber");

@@ -2,8 +2,8 @@
 using AutoMapper.QueryableExtensions;
 using ManagementBlock.Application.Interfaces;
 using ManagementBlock.Application.ViewModels;
-using ManagementBlock.Data.EF.Repositories;
 using ManagementBlock.Data.Entities;
+using ManagementBlock.Data.IRepositories;
 using ManagementBlock.Infrastructure.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -14,8 +14,8 @@ namespace ManagementBlock.Application.Implementation
     public class ProductSevice : IProductService
     {
         private readonly IUnitOfWork _unitOfWork;
-        private readonly ProductRepository _productRepository;
-        public ProductSevice(ProductRepository productRepository, IUnitOfWork unitOfWork)
+        private readonly IProductRepository _productRepository;
+        public ProductSevice(IProductRepository productRepository, IUnitOfWork unitOfWork)
         {
             _productRepository = productRepository;
             _unitOfWork = unitOfWork;
@@ -31,6 +31,11 @@ namespace ManagementBlock.Application.Implementation
         public void Delete(int id)
         {
             _productRepository.Remove(id);
+        }
+
+        public void Dispose()
+        {
+            GC.SuppressFinalize(this);
         }
 
         public List<ProductViewModel> GetAll()
@@ -62,7 +67,7 @@ namespace ManagementBlock.Application.Implementation
 
         public void Save()
         {
-            throw new NotImplementedException();
+            _unitOfWork.Commit();
         }
 
         public void Update(ProductViewModel productViewModel)

@@ -8,20 +8,20 @@ namespace ManagementBlock.Data.EF.Migrations
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            //migrationBuilder.CreateTable(
-            //    name: "AppRoleClaims",
-            //    columns: table => new
-            //    {
-            //        Id = table.Column<int>(nullable: false)
-            //            .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-            //        RoleId = table.Column<Guid>(nullable: false),
-            //        ClaimType = table.Column<string>(nullable: true),
-            //        ClaimValue = table.Column<string>(nullable: true)
-            //    },
-            //    constraints: table =>
-            //    {
-            //        table.PrimaryKey("PK_AppRoleClaims", x => x.Id);
-            //    });
+            migrationBuilder.CreateTable(
+                name: "AppRoleClaims",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    RoleId = table.Column<Guid>(nullable: false),
+                    ClaimType = table.Column<string>(nullable: true),
+                    ClaimValue = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AppRoleClaims", x => x.Id);
+                });
 
             migrationBuilder.CreateTable(
                 name: "AppRoles",
@@ -38,20 +38,20 @@ namespace ManagementBlock.Data.EF.Migrations
                     table.PrimaryKey("PK_AppRoles", x => x.Id);
                 });
 
-            //migrationBuilder.CreateTable(
-            //    name: "AppUserClaims",
-            //    columns: table => new
-            //    {
-            //        Id = table.Column<int>(nullable: false)
-            //            .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
-            //        UserId = table.Column<Guid>(nullable: false),
-            //        ClaimType = table.Column<string>(nullable: true),
-            //        ClaimValue = table.Column<string>(nullable: true)
-            //    },
-            //    constraints: table =>
-            //    {
-            //        table.PrimaryKey("PK_AppUserClaims", x => x.Id);
-            //    });
+            migrationBuilder.CreateTable(
+                name: "AppUserClaims",
+                columns: table => new
+                {
+                    Id = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    UserId = table.Column<Guid>(nullable: false),
+                    ClaimType = table.Column<string>(nullable: true),
+                    ClaimValue = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AppUserClaims", x => x.Id);
+                });
 
             migrationBuilder.CreateTable(
                 name: "AppUserLogins",
@@ -114,19 +114,19 @@ namespace ManagementBlock.Data.EF.Migrations
                     table.PrimaryKey("PK_AppUsers", x => x.Id);
                 });
 
-            //migrationBuilder.CreateTable(
-            //    name: "AppUserTokens",
-            //    columns: table => new
-            //    {
-            //        UserId = table.Column<Guid>(nullable: false),
-            //        LoginProvider = table.Column<string>(nullable: true),
-            //        Name = table.Column<string>(nullable: true),
-            //        Value = table.Column<string>(nullable: true)
-            //    },
-            //    constraints: table =>
-            //    {
-            //        table.PrimaryKey("PK_AppUserTokens", x => x.UserId);
-            //    });
+            migrationBuilder.CreateTable(
+                name: "AppUserTokens",
+                columns: table => new
+                {
+                    UserId = table.Column<Guid>(nullable: false),
+                    LoginProvider = table.Column<string>(nullable: true),
+                    Name = table.Column<string>(nullable: true),
+                    Value = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_AppUserTokens", x => x.UserId);
+                });
 
             migrationBuilder.CreateTable(
                 name: "Brands",
@@ -148,12 +148,11 @@ namespace ManagementBlock.Data.EF.Migrations
                 name: "Menus",
                 columns: table => new
                 {
-                    Id = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
+                    Id = table.Column<string>(nullable: false),
                     Name = table.Column<string>(maxLength: 255, nullable: true),
                     Url = table.Column<string>(maxLength: 255, nullable: true),
-                    Image = table.Column<string>(maxLength: 255, nullable: true),
-                    Css = table.Column<string>(type: "varchar(255)", maxLength: 255, nullable: true),
+                    IconCss = table.Column<string>(type: "varchar(255)", maxLength: 255, nullable: true),
+                    ParentId = table.Column<string>(maxLength: 255, nullable: true),
                     SortNumber = table.Column<int>(nullable: false),
                     Status = table.Column<int>(nullable: false)
                 },

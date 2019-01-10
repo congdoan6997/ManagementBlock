@@ -152,18 +152,17 @@ namespace ManagementBlock.Data.EF.Migrations
 
             modelBuilder.Entity("ManagementBlock.Data.Entities.Menu", b =>
                 {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+                    b.Property<string>("Id")
+                        .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Css")
+                    b.Property<string>("IconCss")
                         .HasColumnType("varchar(255)")
                         .HasMaxLength(255);
 
-                    b.Property<string>("Image")
+                    b.Property<string>("Name")
                         .HasMaxLength(255);
 
-                    b.Property<string>("Name")
+                    b.Property<string>("ParentId")
                         .HasMaxLength(255);
 
                     b.Property<int>("SortNumber");

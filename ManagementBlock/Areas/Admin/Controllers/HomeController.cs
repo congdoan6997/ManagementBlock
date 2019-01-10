@@ -1,17 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using ManagementBlock.Extensions;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ManagementBlock.Areas.Admin.Controllers
 {
- 
+
+    [Area("Admin")]
+  
     public class HomeController : Controller
     {
-        [Area("Admin")]
+        [Authorize]
         public IActionResult Index()
         {
+            var email = User.GetSpecificClaim("Email");
+
             return View();
         }
     }

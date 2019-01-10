@@ -12,6 +12,7 @@ namespace ManagementBlock.Application.AutoMappers
         public DomainToViewModelMappingProfile()
         {
             CreateMap<Product, ProductViewModel>();
+            CreateMap<Menu, MenuViewModel>();
         }
     }
 }

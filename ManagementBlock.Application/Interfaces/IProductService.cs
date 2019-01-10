@@ -1,9 +1,10 @@
 ﻿using ManagementBlock.Application.ViewModels;
+using System;
 using System.Collections.Generic;
 
 namespace ManagementBlock.Application.Interfaces
 {
-    public interface IProductService
+    public interface IProductService:IDisposable
     {
         ProductViewModel Add(ProductViewModel productViewModel);
 
